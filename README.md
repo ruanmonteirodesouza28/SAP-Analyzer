@@ -1,14 +1,14 @@
 # SAP Process Analyzer
 
 Projeto Python que simula e analisa dados de processos corporativos no estilo SAP.
-Criado para fins de estudo — nível iniciante em Python.
+Criado para fins de estudo, nível iniciante em Python.
 
 ---
 
 ## O que o projeto faz
 
-- **`gerar_dados.py`** — Gera um arquivo CSV com 200 processos SAP falsos (simulados), contendo módulo, tempo, status e departamento.
-- **`analise.py`** — Lê o CSV e exibe:
+- **`gerar_dados.py`**  Gera um arquivo CSV com 200 processos SAP falsos (simulados), contendo módulo, tempo, status e departamento.
+- **`analise.py`**  Lê o CSV e exibe:
   - Tempo médio por módulo SAP (FI, MM, SD, HR)
   - Quantidade de erros por departamento
   - Qual módulo tem mais processos pendentes
